@@ -33,7 +33,7 @@ public class ReverseInteger
         return (n);
     }
 
-	public int digitNumber(int x)
+	private int digitNumber(int x)
 	{
 		int i;
 
