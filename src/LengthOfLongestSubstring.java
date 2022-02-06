@@ -1,3 +1,5 @@
+package src;
+
 public class LengthOfLongestSubstring 
 {
 	public static int isRepeat(int pos, int start, int lOfSub, String s, boolean f[])

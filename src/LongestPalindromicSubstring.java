@@ -1,4 +1,5 @@
 // Given a string s, return the longest palindromic substring in s
+package src;
 
 class Coordinates // Создан для удобного хранения индексов строки
 {

@@ -1,3 +1,5 @@
+package src;
+
 public class TwoSum {
     public static int[] solution(int nums[], int target)
     {

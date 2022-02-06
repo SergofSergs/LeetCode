@@ -1,3 +1,4 @@
+package src;
 import java.util.Scanner; // Для считывания ввода
 
 public class MedianOfTwoSortedArrays {
