@@ -1,25 +1,25 @@
 package src;
 
 public class TwoSum {
-    public static int[] solution(int nums[], int target)
+    public static int[] solution(int[] numbs, int target)
     {
         int[] arr;
         int flag = 0;
         int j;
 
         arr = new int[2]; 
-        for(int i = 0; i < nums.length; i++)
+        for(int i = 0; i < numbs.length; i++)
         {
             if (flag == 1)
                 break;
             j = -1;
-            while (++j < nums.length)
+            while (++j < numbs.length)
             {
                 if (flag == 1)
                     break;
                 if (j == i)
                     continue;
-                if (nums[i] + nums[j] == target)
+                if (numbs[i] + numbs[j] == target)
                 {
                     arr[0] = i;
                     arr[1] = j;
