@@ -22,13 +22,14 @@ public class TestClass
 				{10, 9, 8, 7, 6, 1, 2, 3, 4, 5},
 				{}, {1, 2, 3, 4, 3, 3, 5, 6, 7},
 				{5, 6, 7, 8, 9, 10, 9, 8, 7, 6, 5},
-				{10, 9, 8, 7, 6, 5, 6, 7, 8, 9, 10}
+				{10, 9, 8, 7, 6, 5, 6, 7, 8, 9, 10},
+				{2,1}
 		};
 		long runTime = System.nanoTime();
 		for (int[] x: arr)
 		{
 			long time = System.nanoTime();
-			System.out.print(Arrays.toString(getTest(ShakerSort::shakerSort, x)) + " completed in ");
+			System.out.print(Arrays.toString(getTest(CombSort::combSort, x)) + " completed in ");
 			System.out.println(System.nanoTime() - time);
 		}
 		System.out.println("Overall running time is " + (System.nanoTime() - runTime));

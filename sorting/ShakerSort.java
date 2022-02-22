@@ -13,12 +13,12 @@ public class ShakerSort
 		{
 			ln = len;
 			for (int j = i ;j < len; j++)
-			/*In first loop goes through the array swapping elements in places
+			/*First loop goes through the array swapping elements in places
 			just like bubble sort */
 			{
 				if (arr[j] > arr[j + 1])
 					Swap.swap(j, j + 1, arr);
-				// Decided to write swap method, changes start and end elements in places
+				// Decided to write swap method, it changes start and end elements in places
 			}
 			/*In second, it goes backwards, but does the same job*/
 			for (;ln > i; ln--)
