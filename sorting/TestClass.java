@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class TestClass
 {
 	@FunctionalInterface
-	interface TestedFunction
+	interface TestedFunction //Trying to figure out how to pass method as a parameter, it's kinda confusing
 	{
 		int[] Sort(int[] arr);
 	}
