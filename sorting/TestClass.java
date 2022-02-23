@@ -23,13 +23,14 @@ public class TestClass
 				{}, {1, 2, 3, 4, 3, 3, 5, 6, 7},
 				{5, 6, 7, 8, 9, 10, 9, 8, 7, 6, 5},
 				{10, 9, 8, 7, 6, 5, 6, 7, 8, 9, 10},
-				{2,1}
+				{2,1},
+				{123}
 		};
 		long runTime = System.nanoTime();
 		for (int[] x: arr)
 		{
 			long time = System.nanoTime();
-			System.out.print(Arrays.toString(getTest(CombSort::combSort, x)) + " completed in ");
+			System.out.print(Arrays.toString(getTest(InsertionSort::insertionSort, x)) + " completed in ");
 			System.out.println(System.nanoTime() - time);
 		}
 		System.out.println("Overall running time is " + (System.nanoTime() - runTime));
