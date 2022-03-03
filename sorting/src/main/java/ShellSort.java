@@ -1,4 +1,3 @@
-package sorting;
 // Comb sort + Insertion sort
 public class ShellSort
 {

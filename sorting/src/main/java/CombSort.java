@@ -1,4 +1,3 @@
-package sorting;
 /*
 The main feature of this algorithm in reducing the distance (step)
 between indexes till it's gone (at step == 1, it's straight the bubble sort)

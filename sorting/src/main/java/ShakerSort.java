@@ -1,5 +1,3 @@
-package sorting;
-
 public class ShakerSort
 {
 	public static int[] shakerSort(int[] arr)

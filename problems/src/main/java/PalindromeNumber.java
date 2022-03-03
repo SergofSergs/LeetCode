@@ -1,5 +1,3 @@
-package src;
-
 public class PalindromeNumber
 {
 	public boolean isPalindrome(int x)

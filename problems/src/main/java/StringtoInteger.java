@@ -1,6 +1,4 @@
-package src;
-
-public class StringtoInteger 
+public class StringtoInteger
 {
 	private class Str
 	{

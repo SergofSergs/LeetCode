@@ -1,4 +1,4 @@
 RegularExpressionMatching.java
 out/
 .idea/
-LeetCode.iml
+*.iml

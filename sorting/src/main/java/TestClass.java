@@ -1,5 +1,3 @@
-package sorting;
-
 import java.util.Arrays;
 
 public class TestClass
@@ -30,7 +28,7 @@ public class TestClass
 		for (int[] x: arr)
 		{
 			long time = System.nanoTime();
-			System.out.print(Arrays.toString(getTest(InsertionSort::insertionSort, x)) + " completed in ");
+			System.out.print(Arrays.toString(getTest(ShellSort::shellSort, x)) + " completed in ");
 			System.out.println(System.nanoTime() - time);
 		}
 		System.out.println("Overall running time is " + (System.nanoTime() - runTime));

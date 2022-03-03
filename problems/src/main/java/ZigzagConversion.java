@@ -1,6 +1,4 @@
-package src;
-
-public class ZigzagConversion 
+public class ZigzagConversion
 {
 
 	public String Convert(String s, int numRows) // Вход в функцию

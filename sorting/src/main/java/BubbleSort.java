@@ -1,5 +1,3 @@
-package sorting;
-
 public class BubbleSort
 {
     public static int[] bubbleSort(int[] arr)

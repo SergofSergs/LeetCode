@@ -1,5 +1,3 @@
-package sorting;
-
 //This algorithm goes through the array, and insert the smaller element before bigger ones
 
 public class InsertionSort
