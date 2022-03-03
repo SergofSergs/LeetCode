@@ -24,13 +24,15 @@ public class TestClass
 				{2,1},
 				{123}
 		};
-		long runTime = System.nanoTime();
+		double overallTime = 0;
 		for (int[] x: arr)
 		{
-			long time = System.nanoTime();
-			System.out.print(Arrays.toString(getTest(ShellSort::shellSort, x)) + " completed in ");
-			System.out.println(System.nanoTime() - time);
+			double time = System.nanoTime();
+			System.out.print(Arrays.toString(getTest(ShellSort::shellSort, x)) + " completed in");
+			overallTime += System.nanoTime() - time;
+			System.out.printf(" %7.1f%n", System.nanoTime() - time);
+
 		}
-		System.out.println("Overall running time is " + (System.nanoTime() - runTime));
+		System.out.printf("Overall running time is %.2fms%n", (overallTime / 1000000));
 	}
 }
